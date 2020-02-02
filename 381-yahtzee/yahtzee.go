@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(max)
 }
 
-//returns the maximum score
+//returns the maximum score for this roll
 func maxScore(roll [5]int) int {
 	counts := map[int]int{}
 	for _, value := range roll {
